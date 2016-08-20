@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.thevibe" name="TheVibe Team Repository" version="3.7.0" provider-name="TheVibe Team">
-  <extension point="xbmc.addon.repository" name=".TheVibe Repository ">
-    <info compressed="false">http://repo.the-vibe.co.il/Repo/xml</info>
-    <checksum>http://repo.the-vibe.co.il/Repo/md5</checksum>
-    <datadir zip="true">http://repo.the-vibe.co.il/Repo/</datadir>
+<addon id="repository.boxes" name="BOXES Repository" version="1.0" provider-name="http://www.boxes.com.mt">
+  <extension point="xbmc.addon.repository" name="BOXES Repository">
+    <info compressed="false">https://raw.githubusercontent.com/BOXESmt/boxesaddons/master/Repo/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/BOXESmt/boxesaddons/master/Repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/BOXESmt/boxesaddons/master/Repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>The-Vibe Team Repository</summary>
-    <description>The-Vibe Team Repository</description>
+    <summary>BOXES Repository</summary>
+    <description>BOXES Repository</description>
     <platform>all</platform>
-    <website>http://www.the-vibe.co.il</website>
+    <website>http://www.boxes.com.mt</website>
   </extension>
 </addon>
